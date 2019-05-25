@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_category_title_about">
+
+        <Preference
+            android:title="Developed by"
+            android:icon="@drawable/ic_app_developed_by"
+            android:summary="Dahir Abdelali"/>
+
+        <Preference
+            android:title="App version"
+            android:icon="@drawable/ic_app_version"
+            android:summary="1.0"/>
+    </PreferenceCategory>
+</PreferenceScreen>
